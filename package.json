@@ -1,0 +1,21 @@
+{
+  "name": "se.mau.iotmaster.wsrelay",
+  "version": "0.0.1",
+  "description": "Simple web socket relay server for IoT applications",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IoT",
+    "websockets",
+    "relay"
+  ],
+  "author": "Dario Salvi",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+}
